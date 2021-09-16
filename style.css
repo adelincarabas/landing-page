@@ -41,6 +41,7 @@ body {
 }
 
 /*end navbar*/
+/*hero*/
 
 .hero {
   display: flex;
@@ -89,3 +90,6 @@ h1 {
   width: 500px;
   height: 350px;
 }
+
+/*end hero*/
+/*the tree photos with information*/
