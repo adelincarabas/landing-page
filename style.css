@@ -149,6 +149,8 @@ h1 {
 #box4 {
   background-color: hsl(297, 100%, 50%);
 }
+/*end of the 4 boxes*/
+/*start of quote part*/
 
 .quote {
   display: flex;
@@ -170,4 +172,54 @@ h1 {
   padding-right: 10px;
   font-family: "Roboto", arial;
   text-align: right;
+}
+/*end of the quote part*/
+/* start of sign up part*/
+.sign-up {
+  background-color: #3882f6;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border-color: none;
+}
+
+.sign-item {
+  flex: 1;
+}
+
+.signs-text {
+  text-align: left;
+}
+
+.signs-text p {
+  color: #fff;
+  opacity: 0.7;
+  margin: 5px 30px 30px 50px;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Roboto", arial;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+  color: #fff;
+  font-family: "Roboto", arial;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  font-family: "Roboto", arial;
 }
