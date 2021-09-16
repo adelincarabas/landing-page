@@ -10,6 +10,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 /*navbar*/
 .navbar {
@@ -93,3 +98,54 @@ h1 {
 
 /*end hero*/
 /*the tree photos with information*/
+
+.content h2 {
+  color: hsl(348, 52%, 38%);
+  margin-bottom: 3rem;
+}
+
+.content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.randomInfoBox {
+  width: 170px;
+  height: 170px;
+  border-radius: 7px;
+}
+
+.content-info {
+  display: flex;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.randomInfo li {
+  color: hsl(0, 0%, 38%);
+}
+
+.randomInfo {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 170px;
+  text-align: center;
+}
+
+#box1 {
+  background-color: hsl(201, 100%, 50%);
+}
+
+#box2 {
+  background-color: hsl(259, 100%, 50%);
+}
+
+#box3 {
+  background-color: hsl(277, 100%, 50%);
+}
+
+#box4 {
+  background-color: hsl(297, 100%, 50%);
+}
